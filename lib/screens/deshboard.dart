@@ -44,7 +44,7 @@ class DeshBoard extends StatelessWidget {
 
   void _ShowTransactionList(BuildContext context) {
     Navigator.of(context).push(MaterialPageRoute(
-      builder: (context) => TransactionsList(),
+      builder: (context) => TransactionList(),
     ));
   }
 }
